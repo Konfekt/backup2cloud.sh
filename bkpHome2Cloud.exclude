@@ -1,0 +1,113 @@
+# Sensitive Data {{{
+/.config/.ssh/
+/.config/.gnupg/
+/.config/.keychain/
+/.config/.password-store/
+/.config/.smime/
+
+/.config/.thunderbird/*/signons.sqlite
+/.config/.thunderbird/*/logins.json
+/.config/.thunderbird/*/cert8.db
+/.config/.thunderbird/*/key3.db
+
+/.config/.mozilla/firefox/*/logins.json
+/.config/.mozilla/firefox/*/cert8.db
+/.config/.mozilla/firefox/*/key3.db
+
+/.config/copyq/*.dat
+/.local/share/vim/undo/
+/.local/share/vim/yankround/
+# }}}
+
+# Redundant Data {{{
+
+/.local/share/mbsync/
+/.config/.thunderbird/*/ImapMail/
+
+/.local/share/baloo/
+/.local/share/recoll/
+
+/.config/.goldendict/index/
+
+/.local/share/Trash/
+
+/.config/.mozilla/firefox/*-backup-crashrecovery-*/
+/.config/.mozilla/firefox/Crash Reports/
+/.config/.mozilla/firefox/*/crashes/
+/.config/.mozilla/firefox/*/datareporting/
+/.config/.thunderbird/Crash Reports/
+/.config/.thunderbird/*/crashes/
+/.config/.thunderbird/*/datareporting/
+# }}}
+
+# Temp Files {{{
+*.bak
+*.bkp
+
+*.swp
+
+*.tmp
+
+[Tt]mp/
+[Tt]emp/
+[Tt]emporary/
+
+# Cache Files
+[Cc]ache/
+.cache/
+
+# Office Temp Files
+~$*
+
+# Logs
+*.log
+log/
+logs/
+# }}}
+
+# TeX auxiliary files {{{
+
+# Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+
+# Bibliography auxiliary files (bibtex/biblatex/biber):
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+# Build tool auxiliary files:
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+# amsthm
+*.thm
+
+# beamer
+*.nav
+*.pre
+*.snm
+*.vrb
+
+# hyperref
+  *.brf
+
+# }}}
+
+#  ex: set foldmethod=marker: 

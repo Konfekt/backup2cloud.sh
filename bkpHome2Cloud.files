@@ -1,0 +1,14 @@
+/.config/
+/.local/share/
+# PIP libraries and binaries
+/.local/bin/
+/.local/lib/
+
+/backups/
+
+/Desktop/
+/Documents/
+
+/bin/
+
+#  ex:ft=conf
