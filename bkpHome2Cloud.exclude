@@ -7,27 +7,45 @@
 
 /.config/.thunderbird/*/signons.sqlite
 /.config/.thunderbird/*/logins.json
-/.config/.thunderbird/*/cert8.db
-/.config/.thunderbird/*/key3.db
+/.config/.thunderbird/*/cert*.db
+/.config/.thunderbird/*/key*.db
 
 /.config/.mozilla/firefox/*/logins.json
-/.config/.mozilla/firefox/*/cert8.db
-/.config/.mozilla/firefox/*/key3.db
+/.config/.mozilla/firefox/*/cert*.db
+/.config/.mozilla/firefox/*/key*.db
+/.config/.mozilla/firefox/*/weave/
+/.config/.mozilla/firefox/*/signedInUser*.json
+
+/.config/.chromium/Default/Login Data*
+
+/.config/syncthing/*.pem
+/.config/syncthing/csrftokens.txt
+/.config/syncthing/key.pem/
+/.config/syncthing/https-key.pem/
 
 /.config/copyq/*.dat
+/.local/share/greenclip.*
+/.local/share/klipper/
+
 /.local/share/vim/undo/
 /.local/share/vim/yankround/
 # }}}
 
 # Redundant Data {{{
 
-/.local/share/mbsync/
+/.config/syncthing/index-*.db/
+
 /.config/.thunderbird/*/ImapMail/
+/.local/share/mbsync/
 
 /.local/share/baloo/
 /.local/share/recoll/
 
 /.config/.goldendict/index/
+
+/.config/.recoll/*.rws
+/.local/share/baloo/
+/.local/share/recoll/
 
 /.local/share/Trash/
 
@@ -35,9 +53,15 @@
 /.config/.mozilla/firefox/Crash Reports/
 /.config/.mozilla/firefox/*/crashes/
 /.config/.mozilla/firefox/*/datareporting/
+/.config/.mozilla/firefox/*/saved-telemetry-pings/
 /.config/.thunderbird/Crash Reports/
 /.config/.thunderbird/*/crashes/
 /.config/.thunderbird/*/datareporting/
+/.config/.thunderbird/*/saved-telemetry-pings/
+/.config/chromium/Crash Reports/
+/.config/chromium/**/*Cache
+/.config/chromium/**/Cache*
+
 # }}}
 
 # Temp Files {{{
